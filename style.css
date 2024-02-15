@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.page {
+  border: 1px solid red;
+  width: 1000px;
+  margin:  65px auto 0;
+}
+#balls {
+margin-right: 0px;
+margin-bottom: 0px;
+
+}
