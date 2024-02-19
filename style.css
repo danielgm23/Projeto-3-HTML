@@ -1,11 +1,14 @@
 
 body {
   margin: 0;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 h1{
   font-family: "Mulish", sans-serif;
@@ -50,6 +53,9 @@ ul li a:hover{ /* "ao passar o mouse" "*/
  
 }
 ul li a {
+  opacity: 1;
+}
+ul li a {
   text-decoration: none; /* tirar decoração do texto ex barra embaixo do lindl */
   color: black;
 
@@ -75,6 +81,15 @@ button {
   align-items: center;
   display: flex; /* ter flexibilidade das posicoes, pode ser usado direto no inspecionar do browser */
   font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  justify-content: center;
+  padding: 14px 32px 15px;
+  gap: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3a896d;
 
 }
 
@@ -89,8 +104,9 @@ footer a {
   color: black;
 }
 
-.balls {
-  margin-right: 0px;
-  margin-left: 0px;
+#balls {
+ position: fixed;
+ bottom: 0;
+ right: 0;
  
 }
